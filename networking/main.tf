@@ -29,7 +29,7 @@ module "vpc" {
   source               = "../modules/vpc/aws_vpc"
   environment          = var.environment
   name                 = var.application
-  user                 = var.user
+  # user                 = var.user
   cidr_block           = var.vpc_cidr_block
   identifier_tags      = local.tags
   enable_dns_hostnames = "true"

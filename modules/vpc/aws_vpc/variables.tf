@@ -1,8 +1,8 @@
 variable "environment" {
 }
 
-variable "user" {
-}
+# variable "user" {
+# }
 
 variable "name" {
 }
