@@ -47,25 +47,25 @@ variable "s3_vpce" {
   default = false
 }
 
-## DNS
-variable "dns_private_domain" {
-  type = string
-}
+# ## DNS
+# variable "dns_private_domain" {
+#   type = string
+# }
 
-variable "dns_public_domain" {
-  type = string
-}
+# variable "dns_public_domain" {
+#   type = string
+# }
 
-## EC2 BASTION
+# ## EC2 BASTION
 
-variable "ec2_bastion_ami" {
-  type = string
-}
+# variable "ec2_bastion_ami" {
+#   type = string
+# }
 
-variable "ec2_bastion_instance_type" {
-  type = string
-}
+# variable "ec2_bastion_instance_type" {
+#   type = string
+# }
 
-variable "ec2_bastion_monitoring" {
-  type = bool
-}
+# variable "ec2_bastion_monitoring" {
+#   type = bool
+# }
